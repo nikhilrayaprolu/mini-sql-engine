@@ -1,0 +1,12 @@
+select * from table1
+select distinct count(A) from table1
+select max(A) from table1 change max with sum,min,avg
+select A,B from table1
+NO select distinct(col1), distinct(col2) from table1
+Select A,B from table1 where A = 922 AND B = 158 try OR too.
+Select * from table1, table2 where table1.col1=table2.col2;
+Select col1,col2 from table1,table2 where table1.col1=table2.col2;
+
+python 201501090.py "select table1.A,table1.B,table2.D from table1,table2 where table1.B=table2.B"
+python 201501090.py "select * from table1,table2 where table1.B=table2.B"
+
